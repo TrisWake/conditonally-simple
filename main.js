@@ -1,6 +1,47 @@
 /******************************
  * YOUR CODE GOES RIGHT HERE! *
  ******************************/
+function isItLong(long){
+  if (long.length > 20){
+    return ("That's a long string!")
+  }
+}
+
+function isItMedium(med){
+  if (med.length >=10 && med.length <=20){
+    return ("That's a regular sized string!")
+  }
+}
+
+function isItShort(short){
+  if (short.length < 10){
+    return ("That's a small string!")
+  }else {
+    return ("That's not a small string!")
+  }
+}
+
+function howLongIsMyString(stretch){
+  if (stretch.length > 20){
+    return ("That's a long string!")
+  }
+  if (stretch.length >= 10 && stretch.length <= 20){
+    return ("That's a regular sized string!")
+  }
+  else {
+    return ("That's a small string!")
+  }
+}
+
+function personsHeight(tall){
+  if (tall === "Shaq"){
+    return (85);
+  }
+  if (tall = "Zooey"){
+    return (65);
+  }
+  else if ("I don't know everyone's height!")
+}
 
 
 
