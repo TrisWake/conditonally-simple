@@ -37,15 +37,13 @@ function personsHeight(tall){
   if (tall === "Shaq"){
     return (85);
   }
-  if (tall = "Zooey"){
+  else if (tall === "Zooey"){
     return (65);
   }
-  else if ("I don't know everyone's height!")
+  else {
+    return "I don't know everyone's height!";
+  }
 }
-
-
-
-
 /**********************************
  *      OUR CODE GOES BELOW.      *
  * THIS IS FOR INTERNAL USE ONLY. *
